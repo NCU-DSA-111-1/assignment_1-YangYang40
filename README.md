@@ -6,10 +6,9 @@ This is assignment 1
 
  ```sh
  #Compile
- cd/src
- gcc -o runme 110503517_assignment_1_update.c
+ make all
  #Run
- ./runme
+ ./main
   ```
 
 ## Input
