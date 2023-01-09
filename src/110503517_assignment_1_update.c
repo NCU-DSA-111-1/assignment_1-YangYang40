@@ -36,20 +36,7 @@ double *L2_der_err_der_x; //derivative of the input to the second layer
 double *L1_der_err_der_w; //derivatives of the weights from L1 to L2
 double *L1_suggested_weight_changes;// space for L1 suggested weight changes
 
-//functions' prototype
-void fill_hyperparams_with_rand(void);
-void L1_compute_weight_change(void);
-void L2_compute_weight_change(void);
-void weight_update(void);
-void feed_forward(double *feed_ptr);
-double sigmoid(double num);
-double dsigmoid(double num);
-void backprop(void);
-void user_input(void);
-void reset_nn(void);
-void clear_vars(void);
-void show_loss(int num_epochs);
-void show_train_result(void);
+
 
 int main(void) 
 {
