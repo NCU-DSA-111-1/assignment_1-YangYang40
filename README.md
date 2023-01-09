@@ -8,6 +8,7 @@ This is assignment 1
  #Compile
  make all
  #Run
+ cd bin
  ./main
   ```
 
