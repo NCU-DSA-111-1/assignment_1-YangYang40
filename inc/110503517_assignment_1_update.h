@@ -20,6 +20,7 @@
 #define TOTAL_EPOCHS 20000 //how many epochs should be processed
 #define PLOT_EPOCHS_UNIT 200 //for how many epochs should we compute and show the loss
 
+//functions' prototype
 void fill_hyperparams_with_rand(void);
 void L1_compute_weight_change(void);
 void L2_compute_weight_change(void);
